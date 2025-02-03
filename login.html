@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page Design</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+    font-family: 'Arial', sans-serif;
+    background: url('login2.jpeg');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay; /* Blends gradient and image */
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+        .container {
+            margin-right: 100px;
+            display: flex;
+            background-color: rgba(255, 255, 255, 0.85);
+            border-radius: 25px;
+            padding: 50px;
+            width: 500px;
+           text-align: center;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .left-section {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* .left-section img {
+           
+        } */
+
+        .right-section {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .right-section h2 {
+            font-size: 2rem;
+            color: #072464;
+            margin-bottom: 20px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        input[type="text"], input[type="password"] {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 25px;
+            font-size: 1rem;
+        }
+
+        button {
+            padding: 12px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    
+        <div class="left-section">
+            <img src="login1.png"  alt="Illustration">
+        </div>
+        <div class="container">
+            <div class="right-section">
+                <h2>User Login</h2>
+                <form>
+                    <input type="text" placeholder="Username">
+                    <input type="password" placeholder="Password">
+                    <button type="submit">Login</button>
+                    <button type="submit">Sign In</button>
+                </form>
+            </div>
+        </div>
+</body>
+</html>

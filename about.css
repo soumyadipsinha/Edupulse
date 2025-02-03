@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Lato;
+}
+.hero{
+    background-color:#16191E;
+    color:white
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ #sinha{
+    border-radius: 50%;
+     object-fit: cover;
+     width: 100%;
+     height: 100%;
+     background: linear-gradient(rgb(255,174,0),orange,rgb(255,32,69),purple,blue);
+    padding: 2px;
+     
+  }
+  #alapan{
+    /* border-radius: 50%;
+     object-fit: cover;
+     width: 100%;
+     height: 100%; */
+     border-radius: 50%;
+     object-fit: cover;
+     width: 100%;
+     height: 100%;
+     background: linear-gradient(rgb(255,174,0),orange,rgb(255,32,69),purple,blue);
+    padding: 2px;
+  }
+  #pradipta{
+    border-radius: 50%;
+     object-fit: cover;
+     width: 100%;
+     height: 100%;
+     background: linear-gradient(rgb(255,174,0),orange,rgb(255,32,69),purple,blue);
+    padding: 2px;
+  }
+  .sinha{
+    height: 200px;
+    width: 100vw;
+display: flex;
+justify-content: space-around;
+
+ 
+  }
+  .alapan{
+    height: 200px;
+    width: 100vw;
+display: flex;
+justify-content: space-around;
+margin-top: 10px;
+  }
+  .pradipta{
+    height: 200px;
+    width: 100vw;
+display: flex;
+justify-content: space-around;
+margin-top: 10px;
+  }
+  .sinha_info{
+    height: 200px;
+    width: 1100px;
+    /* border: 1px solid yellow; */
+    padding-top: 25px;
+    border-radius: 8%;
+    padding-left: 40px;
+    overflow: hidden;
+    transition: ease-in-out 1s;
+    /* background-color: aqua; */
+  }
+  .sinha_img{
+    /* border: solid black; */
+    height: 200px;
+    width: 200px;
+    
+    /* background-color: black; */
+
+  }
+
+  .social{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .info_card{
+    height: 200px;
+    width: 1100px;
+  }
+  
+  .info_card:hover{
+    transform: scale(1.05);
+    z-index: 2;
+  }
+  .info_card:hover{
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+  }

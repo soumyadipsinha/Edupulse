@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Freeman&display=swap');
+
+:root {
+    --primary-color: #6366F1;
+    --accent-color: #3F83F8;
+    --text-color: #333333;
+    --link-color: #2563eb;
+    --background-color: #ffffff;
+    --light-gray: #808080;
+    --dark-gray: #555;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Freeman", sans-serif;
+    text-decoration: none;
+}
+
+body {
+    height: 100vh;
+    text-align: center;
+    background-color: var(--background-color);
+    padding: 0.3rem;
+}
+
+.header_content {
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--text-color);
+    text-decoration: none;
+    
+}
+
+.logo_icon {
+    height: 128px;
+
+}
+
+.logo_text {
+    font-size: 3.9rem;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+    gap: 4rem;
+
+}
+
+.nav_link {
+    color: #718096;
+    font-size: 1.125rem;
+    font-weight: 600;
+    transform: color 0.1s;
+}
+
+.nav_link:hover {
+    color: var(--link-color)
+}
+
+#head-part{
+    margin-top: 35px ;
+    text-align: center;
+}
+#head-part h1{
+    font-size: 2.5rem;
+    color: rgb(10, 10, 72);
+}
+#head-part p{
+    color: rgb(97, 94, 94);
+}
+#head-part h3{
+    font-size: 2rem;
+    color: rgb(10, 10, 72);
+}
+
+#course-cate{
+    margin: 100px;
+}
+
+#part1, #part2, #part3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.add1, .add2, .add3, .add4, .add5, .add6, .add7, .add8, .add9 {
+
+    border: solid 2px black;
+    border-radius: 25px;
+    height: 250px;
+    width: 400px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden; /* Hide overflow beyond border radius */
+    transition: background-color 0.3s ease, transform 1s ease; /* Smooth transitions */
+}
+.add1:hover, .add2:hover, .add3:hover, .add4:hover, .add5:hover, .add6:hover, .add7:hover, .add8:hover, .add9:hover {
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+
+#course-cate, .exam button{
+   padding: 9px;
+   border-radius: 30px;
+   margin-top: 5px;
+   cursor: pointer;
+}
+.add1 a, .add2 a, .add3 a, .add4 a, .add5 a, .add6 a, .add7 a, .add8 a, .add9 a{
+    text-decoration: none;
+    color: inherit;
+ }
+ 
+/* .add1 img, .add2 img, .add3 img, .add4 img, .add5 img, .add6 img, .add7 img, .add8 img, .add9 img{
+    height: 100px;
+    width: 100px;
+}  */
+.add1 .right,
+.add2 .right,
+.add3 .right,
+.add4 .right,
+.add5 .right,
+.add6 .right,
+.add7 .right,
+.add8 .right,
+.add9 .right {
+    height: 100%;
+    text-align: center;
+    border-top-left-radius: 999px;
+    border-bottom-left-radius: 999px;
+    border-top-right-radius: 25px;
+    background-color: #ffcccb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.add1 .right img,
+.add2 .right img,
+.add3 .right img,
+.add4 .right img,
+.add5 .right img,
+.add6 .right img,
+.add7 .right img,
+.add8 .right img,
+.add9 .right img {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 50%;
+    object-fit: cover;
+}
